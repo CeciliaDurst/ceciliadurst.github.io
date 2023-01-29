@@ -1,0 +1,52 @@
+@import url("https://cdn.jsdelivr.net/npm/@xz/fonts@1/serve/plus-jakarta-display.min.css");
+body {
+	background: linear-gradient(-45deg, #6b9fff, #7797ff, #b473ff, #cc74ff);
+	background-size: 400% 400%;
+	animation: gradient 10s ease-in-out infinite;
+	height: 100vh;
+	overflow: hidden;
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+h1 {
+	color: white;
+	text-align: center;
+	font-family: "Plus Jakarta Display", sans-serif;
+	font-size: 4em;
+}
+h2 {
+	font-family: "Plus Jakarta Display", sans-serif;
+	color: white;
+	text-align: center;
+	font-size: 1.5em;
+	margin-top: 10%;
+
+}
+h3 {
+	font-family: "Plus Jakarta Display", sans-serif;
+	color: white;
+	text-align: center;
+	font-size: 2em;
+	margin-top: 5%;
+	visibility: hidden;
+
+}
+h4 {
+	font-family: "Plus Jakarta Display", sans-serif;
+	color: rgba(255, 255, 255, 0.512);
+	text-align: center;
+	font-size: 1.5em;
+	/* margin-top: 10%; */
+	visibility: hidden;
+}
